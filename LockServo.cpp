@@ -1,8 +1,3 @@
-/* LockServo
- modified 4 Jun 2021
- by Joshua Burleson
-*/
-
 #include <Arduino.h>
 #include <Servo.h>
 
