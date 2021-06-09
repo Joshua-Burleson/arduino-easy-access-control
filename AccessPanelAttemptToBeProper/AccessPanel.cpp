@@ -1,3 +1,8 @@
+/*
+  AccessPanel.h - Library for managing access using 4x4 matrix keypad.
+  Created by Joshua C. Burleson, June 9, 2021.
+  Released into the public domain.
+*/
 #include <Arduino.h>
 #include <AccessPanel.h>
 #include <Keypad.h>

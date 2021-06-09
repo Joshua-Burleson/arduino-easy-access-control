@@ -1,3 +1,8 @@
+/*
+  LockServo.cpp - Library for using standard servo for locking and unlocking.
+  Created by Joshua C. Burleson, June 9, 2021.
+  Released into the public domain.
+*/
 #include <Arduino.h>
 #include <LockServo.h>
 

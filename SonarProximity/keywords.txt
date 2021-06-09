@@ -1,0 +1,8 @@
+SonarProximity KEYWORD1
+proximityTrigger KEYWORD2
+setProximityTriggerDistance KEYWORD2
+setProximityTriggerDistanceImperial KEYWORD2
+setProximityTriggerDistanceRaw KEYWORD2
+getDistance KEYWORD2
+getInches KEYWORD2
+getSonarResponseTime KEYWORD2
