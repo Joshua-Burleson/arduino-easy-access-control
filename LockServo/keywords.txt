@@ -1,0 +1,8 @@
+LockServo KEYWORD1
+calibrationCycle KEYWORD2
+unlock KEYWORD2
+lock KEYWORD2
+setLockedPosition KEYWORD2
+setUnlockedPosition KEYWORD2
+setLockedState KEYWORD2
+isLocked KEYWORD2
