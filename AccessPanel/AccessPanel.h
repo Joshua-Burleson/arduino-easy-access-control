@@ -74,21 +74,21 @@ class AccessPanel {
            }
          };
 
-         bool _checkCode() {
-            for( int i = 0; i < 4; i++ ) {
-              if( !( this->_accessCode[i] == this->_currentCode[i] ) ) {
-                this->_resetCurrentCode();
-                return false;
-              }
+        bool _checkCode() {
+          for( int i = 0; i < 4; i++ ) {
+            if( !( this->_accessCode[i] == this->_currentCode[i] ) ) {
+              this->_resetCurrentCode();
+              return false;
             }
-            this->_resetCurrentCode();
-            return true;
-         };
+          }
+          this->_resetCurrentCode();
+          return true;
+        };
          
-         void _resetCurrentCode() {
+        void _resetCurrentCode() {
           for( int i = 0; i < 4; i++ ) this->_currentCode[i] = 'x'; 
           this->_currentCodePosition = 0;
-         };
+        };
 
 };
 
