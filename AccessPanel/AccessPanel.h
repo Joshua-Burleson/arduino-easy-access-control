@@ -34,7 +34,7 @@ class AccessPanel {
 
         void scanForInput() {
           char key = this->keypad.getKey();
-          if( key ) this->processKeyPress( key );
+          if( key ) this->_processKeyPress( key );
          };
 
          bool requestAccess() {
@@ -60,7 +60,7 @@ class AccessPanel {
         byte _colPins[4] = {6, 7, 8, 9};
         byte _rowPins[4] = {2, 3, 4, 5};
         
-        void processKeyPress( char key ) {
+        void _processKeyPress( char key ) {
            if( key == '#' )  this->_accessGranted = this->_checkCode();
            else {
             if ( this->_currentCodePosition == 4 ) {

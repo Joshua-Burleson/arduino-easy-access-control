@@ -1,5 +1,0 @@
-AccessPanel KEYWORD1
-setAccessCode KEYWORD2
-scanForInput KEYWORD2
-requestAccess KEYWORD2
-resetAccess KEYWORD2
